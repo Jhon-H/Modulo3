@@ -1,0 +1,90 @@
+body{
+  background-color:rgb(202, 202, 202);
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: 760px;
+}
+
+header{
+  margin-bottom: 1rem;
+}
+
+#main-div{
+  background-color: rgba(0, 0, 0, 0.198);  
+}
+
+#div-img img{
+  width: 10vw;
+}
+
+#div-img{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+
+#div-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#btn{
+  width: 40%;
+  margin-right: 1rem;
+}
+
+/*Js*/
+
+#res{
+  margin-top: 2rem;
+  height: fit-content;
+}
+
+#res h2, #res > p{
+  text-align: center;
+}
+
+#res > p {
+  font-size: 1.5rem;
+}
+
+#barra{
+  background-color: yellowgreen;
+  height: 2rem;
+}
+
+#table{
+  width: 50%;
+  margin: auto;
+  height: fit-content!important;
+  padding: 2rem;
+  
+  border: .2rem dashed aliceblue;
+  font-size: 1.5rem;
+}
+
+#table i{
+  margin-right: .5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#btn{
+  cursor: pointer;
+}
+
+#main-divS{
+  background-color:rgb(58, 58, 58);
+  width: fit-content;
+  height: 250px;
+}
+

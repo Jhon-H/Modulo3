@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="../css/normalize.css" as="style">
+  <link rel="stylesheet" href="..//css/normalize.css">
+  <link rel="preload" href="../css/pago.css" as="style">
+  <link rel="stylesheet" href="../css/pago.css">
+  <link rel="preload" href="../css/styles.css" as="style">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="shortcut icon" href="../img/icono.ico">
+
+  <title> E-commerce </title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav__menu-item">
+        <a href="menu.html" class="nav__menu-item__link"> Menú </a>
+        <a href="carrito.html" class="nav__menu-item__link">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1 class="main__title"> Información de Pago </h1>
+
+    <form action="" method="POST" class="main__form">
+      <div class="main__form__data">
+        <input type="text" id="main__form__data__name" placeholder="Nombre Completo" required>
+        <input type="email" id="main__form__data__email" placeholder="Correo Electronico" required>
+        <input type="text" id="main__form__data__no-card" placeholder="No. de Tarjeta" required>
+        <div class="main__form__data__ot">
+          <input type="date" id="main__form__data__ot__date" placeholder="F. Vencimiento MM/AA"    
+                 required>
+          <input type="tel" id="main__form__data__ot__cvv" placeholder="CVV" required>
+        </div>
+        <div class="main__form__div-button">
+          <input type="text" value="PAGAR" id="main__form__div-button__button">
+        </div>
+      </div> <!-- form__data -->
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__contact">
+      <div class="footer__contact__items">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer__copyrigth"> <p> &copy; 2021 | Hecho con 
+      <a href="../index.html"> <i class="fas fa-heart"></i></a></p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/73fa0b326b.js" crossorigin="anonymous"></script>
+  <script src="../data/productos.js" type="module"></script>
+  <script src="../scripts/pago.js" type="module"></script>
+</body>
+</html>
