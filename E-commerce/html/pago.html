@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="/css/normalize.css" as="style">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="preload" href="/css/styles.css" as="style">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav id="nav-bar" class="nav-four">
+      <a href="index.html" title="Tienda geek"> Tienda Geek </a>
+      <a href="menu.html" title="productos"> Menú </a>
+      <a href="#" title="carrito"> <i class="fas fa-shopping-cart"></i> </a>
+    </nav>
+  </header>
+
+  <main class="pago">
+    <h1 id="title"> Información de Pago </h1>
+    <form action="" method="POST" id="form">
+      <fieldset>
+        <input type="text" id="f-name" pattern="[a-zA-Z]+" title="Solo caracteres alfabéticos"
+        placeholder="Nombre completo" required/>
+        <input type="email" id="f-email" placeholder="Correo electrónico" required />
+        <input type="text" id="f-tajeta" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" title="xxxx xxxx xxxx xxxx" placeholder="No. de Tarjeta" required />
+        <div>
+          <input type="text" id="f-venc" pattern="(0[1-9]|1[0-2])/(0[1-9]|1[0-2])" title="MM/AA" placeholder="F. Vencimiento MM/AA" required/>
+          <input type="text" id="f-cvv" pattern="[0-9]{3}" placeholder="CVV" required />
+        </div>
+      </fieldset>
+      <div>
+        <input type="submit" value="Pagar" />
+      </div>
+    </form>
+  </main>
+
+  <footer id="footer" class="footer-first">
+    <p> Contactanos <span id="social"> 
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </span></p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/73fa0b326b.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
