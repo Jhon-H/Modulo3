@@ -8,3 +8,7 @@
 ### Calculadora_imc
 
 [Ver muestra de la página](https://calculadora-imc-geek.netlify.app/)
+
+### E-commerce
+
+[Ver muestra de la página[(https://tienda-geeek.netlify.app)
