@@ -11,4 +11,4 @@
 
 ### E-commerce
 
-[Ver muestra de la página[(https://tienda-geeek.netlify.app)
+[Ver muestra de la página](https://tienda-geeek.netlify.app)
