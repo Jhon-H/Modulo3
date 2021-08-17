@@ -1,12 +1,4 @@
 ## E commerce
-
-### SUPER TODO: 
-
-- botones carrito 1
-- Boton de vaciar carrito
-- Icono carrito con # productos comprados FALTA 3
-- Imagenes de ropa
-
 ### Lo que hicimos:
 
 1. Intentamos hacer un diseño responsivo.
